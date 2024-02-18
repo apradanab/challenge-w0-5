@@ -42,7 +42,7 @@ export const nameLengthSelector = (namesArray, maxLength) => {
 
 // 4.Crea una función que sume todos los números de un array y devuelva también la media, mediana, moda y la suma total.
 
-export function getArrayData(inputArray) {
+export const getArrayData = (inputArray) => {
   let sum = 0;
   for (const element of inputArray) {
     sum = sum + element;
